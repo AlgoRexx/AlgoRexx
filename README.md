@@ -1,6 +1,6 @@
 # 🧑‍💻 [Anand Okade](https://developers.google.com/)
   
-### Hey❗ I have been building robots since i was 8 year kid. 
+### Hey❗ I have been building robots since i was 8 year old. 
 
 - <code>Programming Languages</code>
 
