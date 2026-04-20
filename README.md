@@ -1,10 +1,26 @@
-<h1 align="center">Anand Okade</h1>
-<h3 align="center">AI Engineer | Production LLM Systems | Agentic Infrastructure</h3>
+```bash
+anand@cursor:~$ profile --user AlgoRexx --view terminal
+
+╭──────────────────────────────────────────────────────────────────────────────╮
+ │                              AlgoRexx@GitHub                               │
+├──────────────────────────────────────────────────────────────────────────────┤
+│ ROLE      :: AI Engineer                                                     │
+│ FOCUS     :: Training LLM Models | Agentic MCP Building | AWS DevOps         │
+│ MISSION   :: Building AI systems from research to reliable production        │
+│                                                                              │
+│ CONTACT   ::                                                                 │
+│   PHONE   -> +91 9535754563                                                  │
+│   LINKEDIN-> linkedin.com/in/anand-okade-a9614a220                           │
+│   EMAIL   -> anandokade007@gmail.com                                         │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+anand@cursor:~$ render --assets banner --width 85%
+</code></pre>
+```
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90754521/232019995-624fdcae-6240-4d88-af1c-f7215b55a4e3.png" alt="Artboard 1" />
+  <img src="https://user-images.githubusercontent.com/90754521/232019995-624fdcae-6240-4d88-af1c-f7215b55a4e3.png" alt="Artboard 1" width="65%" />
 </p>
-
 <p align="center">
   <a href="https://github.com/AlgoRexx">
     <img src="https://komarev.com/ghpvc/?username=AlgoRexx&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
@@ -17,10 +33,9 @@
   </a>
 </p>
 
-<p align="center">Building AI systems that move from research to reliable production.</p>
-
 <hr/>
 
+<hr/>
 <h2>Impact Snapshot</h2>
 <blockquote>
   <p><strong>Terminal</strong></p>
@@ -37,10 +52,8 @@
 <hr/>
 
 <h2>Projects</h2>
-
-<h3>OpenBloom Terminal — Institutional Equity Intelligence Platform</h3>
+<h3><code>> OpenBloom Terminal — Institutional Equity Intelligence Platform</code></h3>
 <blockquote>
-  <p><strong>Terminal</strong></p>
   <pre><code class="language-bash">$ cd projects/openbloom && cat OVERVIEW.md</code></pre>
 </blockquote>
 <p>
@@ -59,14 +72,11 @@ Engines run as independently scalable services with integrity gates and audit tr
   <img src="https://img.shields.io/badge/Redis-DC382D.svg?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
   <img src="https://img.shields.io/badge/Celery-37814A.svg?style=for-the-badge&logo=celery&logoColor=white" alt="Celery" />
   <img src="https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/AWS-232F3E.svg?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS" />
 </p>
 
 <hr/>
-
-<h3>SAGE — Intraday Options Decision System</h3>
+<h3><code>> SAGE — Intraday Options Decision System</code></h3>
 <blockquote>
-  <p><strong>Terminal</strong></p>
   <pre><code class="language-bash">$ cd projects/sage && cat SYSTEM.md</code></pre>
 </blockquote>
 <p>
@@ -81,15 +91,15 @@ A deterministic 5-stage decision funnel emits <code>TRADE / KILL / STANDBY</code
   <img src="https://img.shields.io/badge/Playwright-2EAD33.svg?style=for-the-badge&logo=playwright&logoColor=white" alt="Playwright" />
   <img src="https://img.shields.io/badge/Electron-2B2E3A.svg?style=for-the-badge&logo=electron&logoColor=9FEAF9" alt="Electron" />
   <img src="https://img.shields.io/badge/SQLite-07405E.svg?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
-  <img src="https://img.shields.io/badge/JSONL-000000.svg?style=for-the-badge&logoColor=white" alt="JSONL" />
   <img src="https://img.shields.io/badge/MLX-111111.svg?style=for-the-badge&logo=apple&logoColor=white" alt="MLX" />
+  <img src="https://img.shields.io/badge/MCP-6E44FF?style=for-the-badge&logo=protocolsdotio&logoColor=white" alt="MCP" />
+  <img src="https://img.shields.io/badge/LangGraph-121D33?style=for-the-badge&logo=langchain&logoColor=white" alt="LangGraph" />
 </p>
 
 <hr/>
 
-<h3>RAG-KG-AI — Relationship-Aware Retrieval Pipeline</h3>
+<h3><code>> RAG-KG-AI — Relationship-Aware Retrieval Pipeline</code></h3>
 <blockquote>
-  <p><strong>Terminal</strong></p>
   <pre><code class="language-bash">$ cd projects/rag-kg-ai && cat ARCHITECTURE.md</code></pre>
 </blockquote>
 <p>
@@ -109,10 +119,8 @@ It extracts entities/relations, stores semantic vectors, maps graph links, and r
 </p>
 
 <hr/>
-
-<h3>investment-memo — AI Investment Memo Generation Pipeline</h3>
+<h3><code>> Investment-memo — AI Investment Memo Generation Pipeline</code></h3>
 <blockquote>
-  <p><strong>Terminal</strong></p>
   <pre><code class="language-bash">$ cd projects/investment-memo && python start_api.py</code></pre>
 </blockquote>
 <p>
@@ -133,10 +141,8 @@ It parses DOCX placeholders, executes multi-prompt workflows (company, market, f
 </p>
 
 <hr/>
-
-<h3>Deepfake — Multi-Modal Deepfake Detection Interface</h3>
+<h3><code>> Deepfake — Multi-Modal Deepfake Detection Interface</code></h3>
 <blockquote>
-  <p><strong>Terminal</strong></p>
   <pre><code class="language-bash">$ cd projects/deepfake && streamlit run UI.py</code></pre>
 </blockquote>
 <p>
