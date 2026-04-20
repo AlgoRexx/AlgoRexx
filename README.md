@@ -134,30 +134,6 @@ It parses DOCX placeholders, executes multi-prompt workflows (company, market, f
 
 <hr/>
 
-<h3>PromptGen (SustainBench) — Sustainability LLM Benchmarking</h3>
-<blockquote>
-  <p><strong>Terminal</strong></p>
-  <pre><code class="language-bash">$ cd projects/promptgen && sustainbench benchmark "Explain carbon offsetting."</code></pre>
-</blockquote>
-<p>
-Generic benchmarking hides domain-specific failure modes. SustainBench evaluates model quality specifically for sustainability-focused prompts.
-It supports CLI + web workflows for multi-model comparisons using readability, similarity, and text-quality metrics, with run history and exportable outputs.
-</p>
-
-<p><strong>Tech Stack</strong></p>
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/FastAPI-009688.svg?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Jinja2-B41717.svg?style=for-the-badge&logo=jinja&logoColor=white" alt="Jinja2" />
-  <img src="https://img.shields.io/badge/OpenAI-412991.svg?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00.svg?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
-  <img src="https://img.shields.io/badge/Transformers-FFD21E.svg?style=for-the-badge&logo=huggingface&logoColor=black" alt="Transformers" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E.svg?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248.svg?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-</p>
-
-<hr/>
-
 <h3>Deepfake — Multi-Modal Deepfake Detection Interface</h3>
 <blockquote>
   <p><strong>Terminal</strong></p>
