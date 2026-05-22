@@ -17,7 +17,9 @@ anand@cursor:~$ profile --user AlgoRexx --view terminal
 anand@cursor:~$ render --assets banner --width 85%
 </code></pre>
 ```
-My portfolio website : https://my-portfolio-sage-three-47.vercel.app/
+My portfolio website : <a href="https://my-portfolio-sage-three-47.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-543DE0?style=flat&logo=About.me&logoColor=white" alt="Portfolio" />
+  </a>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90754521/232019995-624fdcae-6240-4d88-af1c-f7215b55a4e3.png" alt="Artboard 1" width="65%" />
