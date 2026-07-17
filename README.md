@@ -53,6 +53,15 @@ My portfolio website : https://my-portfolio-316ra648m-anand-projects20.vercel.ap
 <hr/>
 
 <h2>Projects</h2>
+
+<blockquote>
+  <p><strong>Terminal</strong></p>
+  <pre><code class="language-bash">$ ls -la projects/ | grep permissions</code></pre>
+</blockquote>
+<p>
+Repos above are private — happy to walk through the code, architecture decisions, or a live demo on a call. Reach out via <a href="https://linkedin.com/in/anand-okade-a9614a220">LinkedIn</a> or <a href="mailto:anandokade007@gmail.com">email</a>.
+</p>
+
 <h3><code>> OpenBloom Terminal — Institutional Equity Intelligence Platform</code></h3>
 <blockquote>
   <pre><code class="language-bash">$ cd projects/openbloom && cat OVERVIEW.md</code></pre>
