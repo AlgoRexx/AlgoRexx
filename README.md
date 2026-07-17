@@ -99,23 +99,43 @@ A deterministic 5-stage decision funnel emits <code>TRADE / KILL / STANDBY</code
 
 <hr/>
 
-<h3><code>> RAG-KG-AI — Relationship-Aware Retrieval Pipeline</code></h3>
+<h3><code>> RL Market Execution — Optimal Trade Execution Agent</code></h3>
 <blockquote>
-  <pre><code class="language-bash">$ cd projects/rag-kg-ai && cat ARCHITECTURE.md</code></pre>
+  <pre><code class="language-bash">$ cd projects/rl-market-execution && cat README.md</code></pre>
 </blockquote>
 <p>
-Vanilla RAG returns top chunks but misses cross-document structure. RAG-KG-AI combines semantic retrieval with graph reasoning to return connected context.
-It extracts entities/relations, stores semantic vectors, maps graph links, and ranks using relevance + connection strength + recency.
+VWAP and TWAP slice large orders uniformly across time or volume and ignore the market entirely — the same static schedule for a thin, choppy book as for a deep, trending one.
+This project trains an A3C-LSTM agent inside ABIDES-MARL (JPMorgan's open-source multi-agent market simulator) to learn an execution policy conditioned on live regime classification (Normal / Volatile / Trending), with dynamic dark-pool/lit-exchange venue routing.
+Benchmarked against the Almgren-Chriss (2001) closed-form baseline via paired Wilcoxon signed-rank tests: the agent significantly beats Almgren-Chriss, does not significantly beat TWAP/VWAP — reported as measured, not adjusted toward a target.
 </p>
 
 <p><strong>Tech Stack</strong></p>
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/LangGraph-121D33.svg?style=for-the-badge&logo=langchain&logoColor=white" alt="LangGraph" />
-  <img src="https://img.shields.io/badge/Hugging%20Face-FF9D00.svg?style=for-the-badge&logo=huggingface&logoColor=white" alt="Hugging Face" />
-  <img src="https://img.shields.io/badge/Milvus-00A1EA.svg?style=for-the-badge&logoColor=white" alt="Milvus" />
-  <img src="https://img.shields.io/badge/Neo4j-008CC1.svg?style=for-the-badge&logo=neo4j&logoColor=white" alt="Neo4j" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C.svg?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
   <img src="https://img.shields.io/badge/FastAPI-009688.svg?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Electron-2B2E3A.svg?style=for-the-badge&logo=electron&logoColor=9FEAF9" alt="Electron" />
+  <img src="https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+</p>
+
+<hr/>
+<h3><code>> MoneyWatch — Graph-Based AML Surveillance</code></h3>
+<blockquote>
+  <pre><code class="language-bash">$ cd projects/moneywatch && cat README.md</code></pre>
+</blockquote>
+<p>
+Rule engines catch structuring (deposits just under the CTR threshold) but miss layering, circular transaction flows, and correspondent-banking risk — patterns that only exist in the graph structure, not in any single row.
+MoneyWatch uses an edge-feature Graph Attention Network — the same architecture class as HSBC's published production AML system — layered with per-firm LoRA-adapted communications surveillance and LightGBM-ranked alert prioritization.
+SAR drafts carry inline transaction/message citations, verified against the case file before reaching an analyst.
+</p>
+
+<p><strong>Tech Stack</strong></p>
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C.svg?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/Hugging%20Face-FF9D00.svg?style=for-the-badge&logo=huggingface&logoColor=white" alt="Hugging Face" />
+  <img src="https://img.shields.io/badge/FastAPI-009688.svg?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Electron-2B2E3A.svg?style=for-the-badge&logo=electron&logoColor=9FEAF9" alt="Electron" />
   <img src="https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
 </p>
 
