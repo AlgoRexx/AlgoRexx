@@ -35,8 +35,11 @@ My portfolio website : https://my-portfolio-316ra648m-anand-projects20.vercel.ap
 </p>
 
 <hr/>
-
+<h2></h2><blockquote>
+  <p>📩 <strong>Repos below are private</strong> — happy to walk through the code, architecture decisions, or a live demo on a call. Reach out via <a href="https://linkedin.com/in/anand-okade-a9614a220">LinkedIn</a> or <a href="mailto:anandokade007@gmail.com">email</a>.</p>
+</blockquote></h2>
 <hr/>
+
 <h2>Impact Snapshot</h2>
 <blockquote>
   <p><strong>Terminal</strong></p>
@@ -58,8 +61,6 @@ My portfolio website : https://my-portfolio-316ra648m-anand-projects20.vercel.ap
   <p><strong>Terminal</strong></p>
   <pre><code class="language-bash">$ ls -la projects/ | grep permissions</code></pre>
 </blockquote>
-<h2> Repos above are private — happy to walk through the code, architecture decisions, or a live demo on a call. Reach out via <a href="https://linkedin.com/in/anand-okade-a9614a220">LinkedIn</a> or <a href="mailto:anandokade007@gmail.com">email</a>.
-</h2>
 
 <h3><code>> OpenBloom Terminal — Institutional Equity Intelligence Platform</code></h3>
 <blockquote>
@@ -225,6 +226,7 @@ It uses a Streamlit control layer to orchestrate inference scripts, manage uploa
   <pre><code class="language-bash">$ cat education.txt</code></pre>
 </blockquote>
 <ul>
+  <li><strong>MSc in Banking and Digital Finance &amp; ML</strong> — University College London (<code>2026 - 2027</code>)</li>
   <li><strong>B.E. in AI &amp; ML</strong> — RNS Institute of Technology (<code>2021 - 2025</code>)</li>
   <li><strong>Pre-University</strong> — Sadhana College (<code>2019 - 2021</code>)</li>
 </ul>
