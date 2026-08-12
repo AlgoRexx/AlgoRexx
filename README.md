@@ -18,10 +18,6 @@ anand@cursor:~$ render --assets banner --width 85%
 </code></pre>
 ```
 My portfolio website : https://my-portfolio-316ra648m-anand-projects20.vercel.app/
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/90754521/232019995-624fdcae-6240-4d88-af1c-f7215b55a4e3.png" alt="Artboard 1" width="65%" />
-</p>
 <p align="center">
   <a href="https://github.com/AlgoRexx">
     <img src="https://komarev.com/ghpvc/?username=AlgoRexx&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
